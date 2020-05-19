@@ -9,7 +9,4 @@ app.use(helmet());
 
 console.log('express and socket.io are listening on port 8080');
 
-module.exports = {
-  app,
-  io,
-};
+module.exports = { app, io };
